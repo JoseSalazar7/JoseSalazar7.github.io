@@ -3,7 +3,7 @@
 body{
     font-family: Georgia, serif;
     color: black;
-    line-height: 140% (em 1.4);
+    line-height: 1.4em;
     margin: 30px;
     background-image: url("./images/page-bg.gif");
     background-repeat: no-repeat;
@@ -11,7 +11,7 @@ body{
     background-color: #f7f3de;
 }
 
-header{
+header h1{
     font-size: 350%;
     color: #7c1a00;
     padding: 40px;
@@ -90,11 +90,15 @@ h3 {
     padding-left: 20px;
 }
 
-blockquote {
+a {
     color: #7c1a00;
     font-weight: bold;
 }
 
 a:hover {
+    background-color: #ffe597;
+}
+
+blockquote {
     background-color: #ffe597;
 }
